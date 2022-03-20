@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const Search = ({setCities, setCity, setWeather}) => {
+const SearchCity = ({setCities, setCity, setWeather}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -26,4 +26,4 @@ const Search = ({setCities, setCity, setWeather}) => {
     )
 }
 
-export default Search;
+export default SearchCity;
