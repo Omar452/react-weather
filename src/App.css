@@ -1,3 +1,76 @@
+
 .App {
   text-align: center;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.day{
+  background-color: #fcf7dc;
+}
+
+.night{
+  background-color: #0d1e3f;
+}
+
+.weatherDiv{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px auto;
+  box-shadow: rgba(125, 127, 129, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  font-size: large;
+}
+
+.weatherImg img{
+  width: 100%;
+}
+
+input, select, button{
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 2px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button{
+  background-color: #bff8ff;
+  padding: auto 20px;
+}
+
+input:focus,select:focus{
+  outline: 1px solid rgb(189, 191, 192);
+  border: none;
+}
+
+.searchDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.city{
+  font-size: 2rem;
+}
+
+.temperature{
+  font-size: 3rem;
+}
+
+.weatherIcon{
+  width:100px;
+  height:100px;
+  margin: -50px auto;
+  border-radius: 50%;
+  background-color: rgb(241, 241, 241);
+
+}
+
+.weatherIcon img{
+  width: 100%;
 }
