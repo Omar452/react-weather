@@ -9,8 +9,10 @@ function App() {
   const [cities, setCities] = useState(null);
   const [weather, setWeather] = useState(null);
 
+  const light = weather && weather[0].IsDayTime ? 'day' : weather && !weather[0].IsDayTime ? 'night' : '';
+
   return (
-    <div className="App">
+    <div className={'App ' +  light}>
       { !cities || weather 
         ? <SearchCity setCities={setCities} setWeather={setWeather} setCity={setCity} />
         : <SelectCity cities={cities} setWeather={setWeather}  />
