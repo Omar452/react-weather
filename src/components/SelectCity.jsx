@@ -4,7 +4,7 @@ const SelectCity = ({cities,setWeather}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.get('http://dataservice.accuweather.com/currentconditions/v1/' + e.target.cityKey.value + '?apikey=' + process.env.REACT_APP_ACCUWEATHER_API)
+        axios.get('https://dataservice.accuweather.com/currentconditions/v1/' + e.target.cityKey.value + '?apikey=' + process.env.REACT_APP_ACCUWEATHER_API)
             .then(data => {
                 if(data.status === 200){
                     setWeather(data.data);

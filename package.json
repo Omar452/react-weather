@@ -1,7 +1,7 @@
 {
   "name": "react-weather",
   "version": "0.1.0",
-  "homepage": "https://github.com/Omar452/react-weather",
+  "homepage": "http://Omar452.github.io/react-weather",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

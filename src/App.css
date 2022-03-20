@@ -33,9 +33,9 @@
 input, select, button{
   padding: 15px 30px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgb(180, 176, 176);
   margin-right: 2px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(57, 58, 59, 0.2) 0px 8px 24px;
 }
 
 button{
@@ -50,7 +50,7 @@ input:focus,select:focus{
 
 .searchDiv{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -73,4 +73,13 @@ input:focus,select:focus{
 
 .weatherIcon img{
   width: 100%;
+}
+
+.errorDiv{
+  margin: 20px auto;
+  padding: 10px 20px;
+  color: crimson;
+  background-color: rgb(255, 228, 234);
+  border-radius: 5px;
+  width: 300px;
 }
